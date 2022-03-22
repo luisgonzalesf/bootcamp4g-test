@@ -19,6 +19,7 @@ body{
 .shadow {
     background-color: black;
     color: white;
+    font-style: italic;
 }
 ul li span {
     color: green;
