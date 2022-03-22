@@ -1,0 +1,25 @@
+body{
+    background-color: #ccffcc;
+    color: blue;
+}
+.title {
+    color: red;
+}
+.subtitle {
+    color: brown;
+    /*
+    font-weight: bold;
+    font-size: 25px;
+    */
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+.shadow {
+    background-color: black;
+    color: white;
+}
+ul li span {
+    color: green;
+}
