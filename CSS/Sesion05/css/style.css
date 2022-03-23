@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.uno {
+    padding: 15px;
+    width: 450px;
+    color: green;
+    text-align: right;
+    font-weight: bold;
+    border: 2px dashed red;
+}
+.dos {
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    width: 450px;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    border: 4px solid blue;
+}
+.tres {
+    padding: 5px;
+    width: 450px;
+    color: black;
+    text-align: justify;
+    border: 5px outset gray;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.cuatro {
+    width: 1200px;
+    padding: 0;
+    margin: 0px;
+    border-top: 3px solid palevioletred;
+    margin-top: 20px;
+}
