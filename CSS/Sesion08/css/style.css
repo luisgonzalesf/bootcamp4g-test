@@ -44,6 +44,7 @@ h1{
 .post_title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .post_title-profile{
     display: flex;
@@ -131,14 +132,20 @@ h1{
     background: #F0F1F4;
     display: flex;
     align-items: center;
-    padding: 0px 14px;
     gap: 10px;
 }
 .comment_text input{
+    font-size: 16px;
     border: none;
     background: #F0F1F4;
     width: 90%;
     height: 46px;
+    padding: 0 13px;
+    border-radius: 10px;
+}
+.comment_text input:focus{
+    outline: none;
+    border: 1px solid #00bcd4;
 }
 .comment_text-iconos{
     display: flex;
